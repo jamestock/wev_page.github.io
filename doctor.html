@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+     <meta charset="UTF-8">
+
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>doctor</title>
+
+     <style>
+          .place {
+
+               padding: 100px 300px;
+               background-color: rgb(158, 201, 201);
+          }
+          .add {
+
+               color: rgb(13, 13, 48);
+
+          }
+
+          .name {
+               color: brown;
+          }
+          .email {
+
+               color: rgb(218, 24, 40);
+          }
+
+          .btn {
+
+               background-color: #4CAF50;
+
+               color: white;
+
+               padding: 8px 10px;
+
+               border: none;
+
+               cursor: pointer;
+
+               width: 10%;
+
+               opacity: 0.9;
+
+          }
+
+          #reset {
+
+               background-color: coral;
+
+          }
+     </style>
+
+</head>
+
+<body>
+
+     <form name="massege" method="POST" class="place">
+
+          <h1>Appointment Form</h1>
+
+          <div class="name">
+
+               <label for="fname">First Name</label>
+
+               <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+
+
+               <label for="lname">Last Name</label>
+
+               <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+          </div><br>
+
+
+
+          <div class="email">
+
+               <label for="email">Email</label>
+
+               <input id="email" type="text" value="" name="email" placeholder="examl@mail"><br>
+
+          </div><br>
+
+          <div>
+
+               <label for="number">MOBILE NO:</label>
+
+               <input type="number" id="email" name="email" placeholder="1234567890">
+
+
+
+          </div><br>
+
+          <div>
+
+               <label for="dob"> Date of Birth:</label>
+
+               <input type="date" id="datemin" name="datemin" max="2021-02-27" placeholder="befor 27/02/2021">
+
+          </div><br>
+
+          <div class="add">
+
+               ADDRESS: &nbsp;&nbsp;
+
+               <label for="city">city:</label>
+
+               <input type="text" id="city" placeholder="abcdef...">
+
+               <label for="district">district:</label>
+
+               <input type="text" id="district" placeholder="abcdef...">
+
+               <label for="state">state</label>
+
+               <input type="text" id="state" placeholder="abcdef...">
+
+               <br>
+
+               <br>
+
+               <label for="zip"> zip code:</label>
+
+               <input type="number" id="zip" placeholder="123456">
+
+
+
+
+          </div><br>
+
+
+
+
+          <div>
+
+               DATE of APPOINTMET:
+
+               <label for="datemin"></label>
+
+               <input type="date" id="datemin" name="datemin" min="2021-03-27" placeholder="after 27/03/2021">
+
+          </div><br>
+
+
+
+          <br>
+
+          <div class="gende">
+
+               GANDER:
+
+               <label for="male">MALE:</label>
+
+               <input type="radio" name="mygendr" id="male">
+
+               <label for="female">FEMALE:</label>
+
+               <input type="radio" name="mygendr" id="female">
+
+               <label for="other">OTHER:</label>
+
+               <input type="radio" name="mygendr" id="other">
+
+          </div><br>
+
+          <DIV>
+
+               Have you previously attended our facility:
+
+               <label for="yes">YES</label>
+
+               <input type="radio" name="past_checkup" id="yes">
+
+               <label for="no">NO</label>
+
+               <input type="radio" name="past_checkup" id="no">
+
+
+
+          </DIV>
+
+          <div>
+
+               IF 'YES',APPOINTMET ABOUT:<br><textarea name="mytext" cols="50" rows="10"></textarea>
+
+          </div>
+
+          <div>
+
+               <input type="submit" class=" btn" value="submit now">
+
+               <input type="reset" class=" btn" id="reset" value="reset now">
+
+          </div><br><br>
+
+          <div>
+
+
+
+          </div>
+
+     </form>
+
+</body>
+
+</html>
